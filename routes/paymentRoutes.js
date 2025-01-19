@@ -13,4 +13,3 @@ router.get('/cancel', (req, res) => res.send('Payment cancelled'));
 router.get('/error', (req, res) => res.send('Error processing payment'));
 
 module.exports = router;
-
